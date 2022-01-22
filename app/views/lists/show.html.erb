@@ -1,0 +1,9 @@
+<%# navbar %>
+<div class="navbar">
+  <h1 id="home"><%= link_to "🍿", lists_path %></h1>
+  <h2 id="new-list"><%= link_to "New List", new_list_path %></h2>
+</div>
+<h1><%= @list.name %></h1>
+<h2 id="movie-title"><%= @bookmarks.movie.title%></h2>
+<p id="movie-comment"><%= @bookmarks.comment %></p>
+<%= link_to "Create a Bookmark for This Movie", new_bookmark_path %>
