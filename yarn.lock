@@ -5587,6 +5587,11 @@ raw-body@2.4.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-animation-loader@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-animation-loader/-/react-animation-loader-1.0.5.tgz#b1d6f20ccc0fe98c9ce45b048db17885d1ff4373"
+  integrity sha512-eQOAi4DSYlh/hfC2KBc+Zd4wdv1Oc8hxgBe4lSQC/R1sQ6kc5qOEjtDn5mDEMQctW9pF7qiGH6TgxBtUQFolKg==
+
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"

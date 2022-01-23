@@ -11,18 +11,41 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "lists";
+@import "bookmarks";
+
+$darkred: #CF291D;
+$lightgray: #ECECEC;
+$darkgray: #BFBFBF;
 
 h1 {
   font-family: 'Limelight', cursive;
-  color: #CF291D;
+  color: $darkred;
 }
 h2 {
   font-family: 'Limelight', cursive;
-  color: #CF291D;
+  color: $darkred;
 }
 a {
-  color: #CF291D
+  color: $darkred
 }
 a:hover {
-  color: #CF291D
+  color: $darkred
+}
+button, input {
+  border-radius: 5px;
+}
+input[type="submit"] {
+  background-color: transparent;
+  color: $darkred;
+  border-color: $darkred;
+  &:hover {
+    background-color: $darkgray;
+  }
+}
+body {
+  background-color: $lightgray;
+}
+input[type="text"] {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

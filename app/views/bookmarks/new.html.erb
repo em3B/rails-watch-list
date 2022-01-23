@@ -4,7 +4,7 @@
   <h2 id="new-list"><%= link_to "New List", new_list_path %></h2>
 </div>
 <%# form %>
-<h1>New Bookmark</h1>
+<h1 id="bookmark-title">New Bookmark</h1>
 <div id="form">
   <%= simple_form_for([ @list, @bookmark ]) do |f| %>
     <div id="form-comment">

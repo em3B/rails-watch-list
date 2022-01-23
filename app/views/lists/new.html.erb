@@ -4,7 +4,7 @@
   <h2 id="new-list"><%= link_to "New List", new_list_path %></h2>
 </div>
 <%# form %>
-<h1>New List</h1>
+<h1 id="new-title">New List</h1>
 <div id="form">
   <%= simple_form_for @list do |f| %>
     <div id="form-name">
@@ -15,4 +15,4 @@
       <%= f.submit %>
     </div>
   <% end %>
-</div>
+  <div id="emoji"></div>
