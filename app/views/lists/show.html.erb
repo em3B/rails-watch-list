@@ -4,6 +4,8 @@
   <h2 id="new-list"><%= link_to "New List", new_list_path %></h2>
 </div>
 <h1 id="list-name"><%= @list.name %></h1>
-<h2 id="movie-title"><%= @bookmarks.movie.title%></h2>
-<p id="movie-comment"><%= @bookmarks.comment %></p>
+<% @bookmarks.each do |bookmark| %>
+  <h2 id="movie-title"><%= bookmark.movie.title%></h2>
+  <p id="movie-comment"><%= bookmark.comment %></p>
+<% end %>
 <h3 id="new-bookmark"><%= link_to "Create a Bookmark for This Movie", new_bookmark_path %></h3>
