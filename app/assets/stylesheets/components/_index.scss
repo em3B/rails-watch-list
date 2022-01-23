@@ -2,3 +2,30 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
+
+#banner-typed-text {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+}
+#list-item {
+  background-color: #ECECEC;
+  width: 300px;
+  height: 300px;
+  border-radius: 9px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-height: min-content;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  a, a:hover {
+      color: #CF291D;
+    }
+}
+#all-lists {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}

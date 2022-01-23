@@ -1,12 +1,22 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar {
+  background: transparent;
+  transition: 0.5s background-color ease;
+  h2 {
+    font-family: 'Limelight', cursive;
+  }
+  a {
+    color: #CF291D;
+  }
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-white {
+  background-color: white;
+}
+
+.navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar .navbar-brand img {
   width: 40px;
 }
