@@ -14,17 +14,18 @@
   left: 25px;
 }
 // show list
-#list-name {
-  position: absolute;
-  top: 70px;
-  left: 25px;
+.navbar {
+  position: relative;
 }
-// #movie-title {
-// }
-// #movie-comment {
-// }
+#list-name {
+  position: relative;
+}
+#movie-title {
+  position: relative;
+}
+#movie-comment {
+  position: relative;
+}
 #new-bookmark {
-  position: absolute;
-  top: 250px;
-  left: 25px;
+  position: relative;
 }
