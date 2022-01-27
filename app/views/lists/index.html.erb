@@ -9,9 +9,13 @@
 </div>
 <h2><span id="banner-typed-text"></span></h2>
 <%# My Lists %>
-<h1>My Lists</h1>
-<div id="all-lists">
-  <% @lists.each do |list| %>
-    <div id="list-item"><h1><%= link_to list.name, list_path(list.id) %></h1></div>
-  <% end %>
+<div class="container">
+  <h1>My Lists</h1>
+  <div id="all-lists">
+    <div class="row">
+      <% @lists.each do |list| %>
+        <div class="col-3" id="list-item"><h1><%= link_to list.name, list_path(list.id) %></h1></div>
+      <% end %>
+    </div>
+  </div>
 </div>
