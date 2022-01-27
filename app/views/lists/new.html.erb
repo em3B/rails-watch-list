@@ -11,6 +11,10 @@
       <%= f.label "Name" %>
       <%= f.text_field :name %>
     </div>
+    <div id="photo">
+      <%= f.label "Add Photo" %>
+      <%= f.input :photo, as: :file %>
+    </div>
     <div id="form-btn">
       <%= f.submit %>
     </div>
